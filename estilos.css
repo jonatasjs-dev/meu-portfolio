@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+  max-width: 100%;
+}
+
+a {
+  color: inherit;
+  transition: color 0.2s linear;
+}
+
+.light a:hover {
+  color: #555;
+}
+
+a:hover {
+  color: lightblue;
+}
+
+button {
+  padding: 5px 15px;
+  border-radius: 1000px;
+  border: none;
+  background-color: #eee;
+  transition: background-color 0.2s linear;
+  cursor: pointer;
+}
+
+.light button {
+  background-color: #aaa;
+  color: white;
+}
+
+button:hover {
+  background-color: #aaa;
+}
+
+.light button:hover {
+  background-color: #aaa;
+  color: #777;
+}
+
+body {
+  background-color: #222;
+  color: white;
+  font-family: "Montserrat";
+  line-height: 120%;
+}
+
+.light {
+  background-color: #eee;
+  color: #222;
+}
+
+header {
+  background-color: #111;
+  padding: 30px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.light header {
+  background-color: #ddd;
+}
+
+footer {
+  align-items: center;
+  text-align: center;
+}
+
+section,
+footer {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+section {
+  border-bottom: 1px solid #555;
+}
+
+ol,
+ul {
+  margin-left: 15px;
+}
+
+.função {
+  font-size: 26px;
+}
+
+.habilidades {
+  display: flex;
+  gap: 40px;
+}
+
+.habilidade {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.projeto {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.projetos {
+  display: flex;
+  gap: 20px;
+}
+
+.informacoes {
+  display: none;
+}
+
+.informacoes.visivel {
+  display: block;
+}
+
+p {
+  font-size: 20px;
+}

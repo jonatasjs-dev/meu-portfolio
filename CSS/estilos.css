@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+  max-width: 100%;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: lightblue;
+}
+
+body {
+  background-color: #222;
+  color: white;
+  font-family: "Montserrat";
+  line-height: 120%;
+}
+
+header {
+  background-color: #111;
+  padding: 30px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer {
+  align-items: center;
+  text-align: center;
+}
+
+section,
+footer {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+section {
+  border-bottom: 1px solid #555;
+}
+
+ol,
+ul {
+  margin-left: 15px;
+}
+
+.função {
+  font-size: 26px;
+}
+
+.habilidades {
+  display: flex;
+  gap: 40px;
+}
+
+.habilidade {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.projeto {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.projetos {
+  display: flex;
+  gap: 20px;
+}
